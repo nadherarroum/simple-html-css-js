@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="css/style.css" />
+
+		<script src="js/script.js"></script>
+		<title>Revision</title>
+	</head>
+	<body>
+		<h1 class="title">Hello World !</h1>
+		<header>
+			<nav>
+				<ul class="nav-bar">
+					<li>Home</li>
+					<li>Contact</li>
+					<li>About</li>
+				</ul>
+			</nav>
+		</header>
+		<div class="section1">
+			<div class="login">
+				<label for="email">Email :</label>
+				<input type="text" name="email" id="email" />
+				<label for="password">Password :</label>
+				<input type="password" name="password" id="password" />
+
+				<input
+					type="submit"
+					onclick="sayHello()"
+					value="Login"
+					id="login-btn"
+				/>
+			</div>
+		</div>
+		<div class="section2">
+			<div class="card" style="width: 18rem">
+				<div class="card-body">
+					<h2 class="card-title">Calculator</h2>
+					<label for="nbr1">X :</label>
+					<input type="text" id="nbr1" />
+					<br />
+					<br />
+					<label for="nbr2">Y :</label>
+					<input type="text" id="nbr2" />
+					<br />
+					<br />
+					<input type="submit" value="Sum" onclick="Sum()" />
+					<!-- <p class="card-text">
+						Some quick example text to build on the card title and make up the
+						bulk of the card's content.
+					</p> -->
+				</div>
+			</div>
+		</div>
+		<div class="section3">
+			<p class="description">
+				Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim
+				consectetur voluptatibus, error adipisci aut molestias soluta ullam, sit
+				ex fugit tenetur dicta exercitationem quis atque libero saepe, rerum
+				cumque. Natus?
+			</p>
+		</div>
+	</body>
+</html>
